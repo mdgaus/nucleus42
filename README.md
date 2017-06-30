@@ -13,7 +13,7 @@
 ### Components
    all the reactjs components are under /public/javascripts/app/components/   
    Company: company search page contains multiple components with filters, companies list and options to select more columns  
-   Investor: investor search page contains multiple components with filters, investors list and options to select more columns   
+   Investor: investor search page contains multiple components with filters, investors list and options to select more columns 
    Person: person profile edit contains multiple forms sections with card layout and dropdowns  
    ContactInfoForm.js: reusable form for social links section, common to Company/Person profile edit  
    CustomizeDropDown.js: reusable drop down to use company type and team size for company profile edit   
@@ -40,6 +40,7 @@
    signupform.ejs:   
    
 ### Styling
+   all the styling files are under /public/stylesheets/sass/
    
    
 ## The project removes unnecessary files
@@ -47,13 +48,13 @@
    
 ### Components
   source: /public/javascripts/app/components/
-  ClaimButton.js
-  CompanyType.js
-  EditCompFounder.js
-  EditCompFunding.js
-  EditPortfolio.js
-  EditProfileCalendar.js
-  Investors.js
+  ClaimButton.js     
+  CompanyType.js     
+  EditCompFounder.js    
+  EditCompFunding.js    
+  EditPortfolio.js      
+  EditProfileCalendar.js   
+  Investors.js    
   
   source: /public/javascripts/app/components/Person/
   CompanyRole.js  
