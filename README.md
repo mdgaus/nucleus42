@@ -1,7 +1,7 @@
 # Nucleus42 Front End 
 
 ## The project includes Modules/Components/Template/Style
-   the project nclient folder contains the following
+   the project nclient folder contains the following 
 
 ### Modules
    1. Companies Search Page   
@@ -11,20 +11,24 @@
    5. BubbleChart on Profile Page   
    
 ### Components
-   /public/javascripts/app/components/Company:  
-   /public/javascripts/app/components/Investor: 
-   /public/javascripts/app/components/Person:   
-   /public/javascripts/app/components/ContactInfoForm.js:   
-   /public/javascripts/app/components/CustomizeDropDown.js: 
-   /public/javascripts/app/components/EditComp.js:    
-   /public/javascripts/app/components/EditCompGeneral.js:   
-   /public/javascripts/app/components/EditPersonRolesDropDown.js:    
-   /public/javascripts/app/components/FundingInvestmentForm.js:   
-   /public/javascripts/app/components/SuggestionDropDownClaim.js:    
-   /public/javascripts/app/components/SuggestionTag.js:     
-   /public/javascripts/app/components/TeamProfile.js:   
+   all the reactjs components are under /public/javascripts/app/components/
+   Company: company search page contains multiple components with filters, companies list and options to select more columns 
+   Investor: investor search page contains multiple components with filters, investors list and options to select more columns
+   Person: person profile edit contains multiple forms sections with card layout and dropdowns 
+   ContactInfoForm.js: reusable form for social links section, common to Company/Person profile edit
+   CustomizeDropDown.js: reusable drop down to use company type and team size for company profile edit 
+   EditComp.js: company profile edit contains multiple forms sections with card layout, tags and dropdowns
+   EditCompGeneral.js: general information section on company profile edit
+   EditPersonRolesDropDown.js: 
+   FundingInvestmentForm.js: reusable form used for Angel investment, Funding and Portfolio. common to Company/Person profile edit 
+   SuggestionsDropdownClaim.js: reusable dropdown comes with backend-API data, common to all sections of Company/Person profile edit
+   SuggestionTag.js: reusable component used for displaying text in tags common to all sections of Company/Person profile edit
+   TeamProfile.js: reusable form for Team section on Company profile edit, common to all team sections
+   utils.js: contains reusable blocks of code such as error notification, convert date format, experiences/team member card layout and static JSON data, common to all  
    
 ### Template
+   all the view pages for initial rendering are under view folder
+   ejs template contains html or html and JSX 
    source: /views/
    index.ejs:  
    companies.ejs:    
@@ -34,6 +38,8 @@
    navbar-new.ejs:   
    person-profile-edit.ejs:   
    signupform.ejs:   
+   
+### Styling
    
    
 ## The project removes unnecessary files
@@ -50,9 +56,9 @@
   Investors.js
   
   source: /public/javascripts/app/components/Person/
-  CompanyRole.js
+  CompanyRole.js  
   source: /public/javascripts/app/components/Utility/
-  ClaimProfileButton.js
+  ClaimProfileButton.js    
   
 ### Templates
   source: /views/
