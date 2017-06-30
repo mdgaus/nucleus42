@@ -1,8 +1,20 @@
 # Nucleus42 Front End 
 
-## The project includes Components/Modules/Template/Style
+## The project includes Modules/Components/Template/Style
 
-
+### Modules
+   /public/javascripts/app/components/Company:
+   /public/javascripts/app/components/Investor:
+   /public/javascripts/app/components/Person:
+   /public/javascripts/app/components/ContactInfoForm.js:
+   /public/javascripts/app/components/CustomizeDropDown.js:
+   /public/javascripts/app/components/EditComp.js:
+   /public/javascripts/app/components/EditCompGeneral.js:
+   /public/javascripts/app/components/EditPersonRolesDropDown.js:
+   /public/javascripts/app/components/FundingInvestmentForm.js:
+   /public/javascripts/app/components/SuggestionDropDownClaim.js:
+   /public/javascripts/app/components/SuggestionTag.js:
+   /public/javascripts/app/components/TeamProfile.js:
 
 ## The project removes unnecessary files
    the project nclient folder contains the following 
