@@ -11,20 +11,20 @@
    5. BubbleChart on Profile Page   
    
 ### Components
-   all the reactjs components are under /public/javascripts/app/components/
-   Company: company search page contains multiple components with filters, companies list and options to select more columns 
-   Investor: investor search page contains multiple components with filters, investors list and options to select more columns
-   Person: person profile edit contains multiple forms sections with card layout and dropdowns 
-   ContactInfoForm.js: reusable form for social links section, common to Company/Person profile edit
-   CustomizeDropDown.js: reusable drop down to use company type and team size for company profile edit 
-   EditComp.js: company profile edit contains multiple forms sections with card layout, tags and dropdowns
-   EditCompGeneral.js: general information section on company profile edit
-   EditPersonRolesDropDown.js: 
-   FundingInvestmentForm.js: reusable form used for Angel investment, Funding and Portfolio. common to Company/Person profile edit 
-   SuggestionsDropdownClaim.js: reusable dropdown comes with backend-API data, common to all sections of Company/Person profile edit
-   SuggestionTag.js: reusable component used for displaying text in tags common to all sections of Company/Person profile edit
-   TeamProfile.js: reusable form for Team section on Company profile edit, common to all team sections
-   utils.js: contains reusable blocks of code such as error notification, convert date format, experiences/team member card layout and static JSON data, common to all  
+   all the reactjs components are under /public/javascripts/app/components/   
+   Company: company search page contains multiple components with filters, companies list and options to select more columns  
+   Investor: investor search page contains multiple components with filters, investors list and options to select more columns   
+   Person: person profile edit contains multiple forms sections with card layout and dropdowns  
+   ContactInfoForm.js: reusable form for social links section, common to Company/Person profile edit  
+   CustomizeDropDown.js: reusable drop down to use company type and team size for company profile edit   
+   EditComp.js: company profile edit contains multiple forms sections with card layout, tags and dropdowns  
+   EditCompGeneral.js: general information section on company profile edit 
+   EditPersonRolesDropDown.js:   
+   FundingInvestmentForm.js: reusable form used for Angel investment, Funding and Portfolio. common to Company/Person profile edit  
+   SuggestionsDropdownClaim.js: reusable dropdown comes with backend-API data, common to all sections of Company/Person profile edit   
+   SuggestionTag.js: reusable component used for displaying text in tags common to all sections of Company/Person profile edit   
+   TeamProfile.js: reusable form for Team section on Company profile edit, common to all team sections   
+   utils.js: contains reusable blocks of code such as error notification, convert date format, experiences/team member card layout and static JSON data, common to all    
    
 ### Template
    all the view pages for initial rendering are under view folder
