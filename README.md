@@ -14,7 +14,8 @@
    all the reactjs components are under /public/javascripts/app/components/   
    Company: company search page contains multiple components with filters, companies list and options to select more columns  
    Investor: investor search page contains multiple components with filters, investors list and options to select more columns 
-   Person: person profile edit contains multiple forms sections with card layout and dropdowns  
+   Person: person profile edit contains multiple forms sections with card layout and dropdowns
+   Graph/BubbleChart.js: used to display investments sectors, common to company/person profile  
    ContactInfoForm.js: reusable form for social links section, common to Company/Person profile edit  
    CustomizeDropDown.js: reusable drop down to use company type and team size for company profile edit   
    EditComp.js: company profile edit contains multiple forms sections with card layout, tags and dropdowns  
