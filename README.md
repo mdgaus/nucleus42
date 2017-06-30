@@ -4,19 +4,38 @@
    the project nclient folder contains the following
 
 ### Modules
-   /public/javascripts/app/components/Company:
-   /public/javascripts/app/components/Investor:
-   /public/javascripts/app/components/Person:
-   /public/javascripts/app/components/ContactInfoForm.js:
-   /public/javascripts/app/components/CustomizeDropDown.js:
-   /public/javascripts/app/components/EditComp.js:
-   /public/javascripts/app/components/EditCompGeneral.js:
-   /public/javascripts/app/components/EditPersonRolesDropDown.js:
-   /public/javascripts/app/components/FundingInvestmentForm.js:
-   /public/javascripts/app/components/SuggestionDropDownClaim.js:
-   /public/javascripts/app/components/SuggestionTag.js:
-   /public/javascripts/app/components/TeamProfile.js:
-
+   1. Companies Search Page   
+   2. Investors Search Page   
+   3. Company Profile Form Edit  
+   4. Person Profile Form Edit   
+   5. BubbleChart on Profile Page   
+   
+### Components
+   /public/javascripts/app/components/Company:  
+   /public/javascripts/app/components/Investor: 
+   /public/javascripts/app/components/Person:   
+   /public/javascripts/app/components/ContactInfoForm.js:   
+   /public/javascripts/app/components/CustomizeDropDown.js: 
+   /public/javascripts/app/components/EditComp.js:    
+   /public/javascripts/app/components/EditCompGeneral.js:   
+   /public/javascripts/app/components/EditPersonRolesDropDown.js:    
+   /public/javascripts/app/components/FundingInvestmentForm.js:   
+   /public/javascripts/app/components/SuggestionDropDownClaim.js:    
+   /public/javascripts/app/components/SuggestionTag.js:     
+   /public/javascripts/app/components/TeamProfile.js:   
+   
+### Template
+   source: /views/
+   index.ejs:  
+   companies.ejs:    
+   company-profile-edit.ejs:   
+   footerNew.ejs:    
+   investors.ejs:    
+   navbar-new.ejs:   
+   person-profile-edit.ejs:   
+   signupform.ejs:   
+   
+   
 ## The project removes unnecessary files
    the project nclient folder contains the following 
    
@@ -32,6 +51,8 @@
   
   source: /public/javascripts/app/components/Person/
   CompanyRole.js
+  source: /public/javascripts/app/components/Utility/
+  ClaimProfileButton.js
   
 ### Templates
   source: /views/
