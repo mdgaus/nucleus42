@@ -1,6 +1,7 @@
 # Nucleus42 Front End 
 
 ## The project includes Modules/Components/Template/Style
+   the project nclient folder contains the following
 
 ### Modules
    /public/javascripts/app/components/Company:
