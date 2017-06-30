@@ -69,13 +69,13 @@
   company-profile-new.ejs  
   footer.ejs   
   navbar.ejs   
-  portfolio_view_all_section.ejs 
+  portfolio_view_all_section.ejs    
   tags_section.ejs   
   
 ### Styling
-  source: /public/stylesheets/sass/ 
+  source: /public/stylesheets/sass/    
   
-  _footer.scss 
-  _nav.scss 
-  _right-tag.scss 
+  _footer.scss    
+  _nav.scss    
+  _right-tag.scss    
   
