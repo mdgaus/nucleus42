@@ -57,25 +57,25 @@
   EditProfileCalendar.js   
   Investors.js    
   
-  source: /public/javascripts/app/components/Person/
+  source: /public/javascripts/app/components/Person/     
   CompanyRole.js  
-  source: /public/javascripts/app/components/Utility/
+  source: /public/javascripts/app/components/Utility/    
   ClaimProfileButton.js    
   
 ### Templates
-  source: /views/
+  source: /views/ 
   
-  claimprofile.ejs
-  company-profile-new.ejs
-  footer.ejs
-  navbar.ejs
-  portfolio_view_all_section.ejs
-  tags_section.ejs
+  claimprofile.ejs   
+  company-profile-new.ejs  
+  footer.ejs   
+  navbar.ejs   
+  portfolio_view_all_section.ejs 
+  tags_section.ejs   
   
 ### Styling
-  source: /public/stylesheets/sass/
+  source: /public/stylesheets/sass/ 
   
-  _footer.scss
-  _nav.scss
-  _right-tag.scss
+  _footer.scss 
+  _nav.scss 
+  _right-tag.scss 
   
