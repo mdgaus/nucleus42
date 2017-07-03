@@ -86,7 +86,9 @@
   ``` 
    _common.scss:- styling common to all
    _claim-profile.scss:- stying for company/person edit claim profile
-   _companies.scss:- cstyling for ompanies search page
+   _companies.scss:- styling for companies search page
+   _core.scss:- file used by library react-widget for calendar
+   _datepicker.scss:- used by library react-widget for calendar
    
    ```
    
@@ -138,7 +140,8 @@
 
    ```
    source: /public/stylesheets/sass/    
-
+   
+   _company-profile.scss
    _footer.scss    
    _nav.scss    
    _right-tag.scss    
