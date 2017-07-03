@@ -61,7 +61,8 @@
    
    ejs template contains html or html and JSX 
    
-   ```source: /views/
+   ```
+   source: /views/
    
    index.ejs: landing/home page 
    companies.ejs:- companies search page and renders component company 
@@ -82,15 +83,21 @@
 ### Styling
 
    all the styling files are under /public/stylesheets/sass/
+  ``` 
+   _common.scss:- styling common to all
+   _claim-profile.scss:- stying for company/person edit claim profile
+   _companies.scss:- cstyling for ompanies search page
    
+   ```
    
 ## The project removes unnecessary files
 
-   the project nclient folder contains the following 
+   the project nclient folder contains unused files the following 
    
 ### Components
 
-   ```source: /public/javascripts/app/components/
+   ```
+   source: /public/javascripts/app/components/
    
    ClaimButton.js:- initially this was used for founder to claim founder's profile
    CompanyType.js:- old file that was used to define type and subtype of a company now using EditPersonRolesDropDown
@@ -116,6 +123,7 @@
 ```
 ### Templates
 
+   ```
    source: /views/ 
 
    claimprofile.ejs   
@@ -124,10 +132,12 @@
    navbar.ejs   
    portfolio_view_all_section.ejs    
    tags_section.ejs   
+  ```
   
 ### Styling
 
-   ```source: /public/stylesheets/sass/    
+   ```
+   source: /public/stylesheets/sass/    
 
    _footer.scss    
    _nav.scss    
