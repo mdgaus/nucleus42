@@ -13,36 +13,46 @@
    
 ### Components
 
-   ```all the reactjs components are under /public/javascripts/app/components/   
-   Company: company search page contains multiple components with filters, companies list and options to select more columns  
-   Investor: investor search page contains multiple components with filters, investors list and options to select more columns 
-   Person: person profile edit contains multiple forms sections with card layout and dropdowns
-   Graph/BubbleChart.js: used to display investments sectors, common to company/person profile  
-   ContactInfoForm.js: reusable form for social links section, common to Company/Person profile edit  
-   CustomizeDropDown.js: reusable drop down to use company type and team size for company profile edit   
-   EditComp.js: company profile edit contains multiple forms sections with card layout, tags and dropdowns  
-   EditCompGeneral.js: general information section on company profile edit 
-   EditPersonRolesDropDown.js:   
-   FundingInvestmentForm.js: reusable form used for Angel investment, Funding and Portfolio. common to Company/Person profile edit  
-   SuggestionsDropdownClaim.js: reusable dropdown comes with backend-API data, common to all sections of Company/Person profile edit   
-   SuggestionTag.js: reusable component used for displaying text in tags common to all sections of Company/Person profile edit   
-   TeamProfile.js: reusable form for Team section on Company profile edit, common to all team sections   
-   utils.js: contains reusable blocks of code such as error notification, convert date format, experiences/team member card layout and static JSON data, common to all
+   ```all the reactjs components are under /public/javascripts/app/components/
+   
+   Company:- company search page contains multiple components with filters, companies list and options to select more columns 
+         /Company/Companies.js:- companies table 
+         /Company/FundingRange.js:- component used for funding range on companies search page
+         /Company/MainSearchBox.js:- reusable search box results drop down for searching startups, investors etc.., common to landing page, navigation bar
+         /Company/SelectTags.js:- reusable component for displaying filter text in tags, common to all filters on companies search page
+         
+   Investor:- investor search page contains multiple components with filters, investors list and options to select more columns 
+   Person:- person profile edit contains multiple forms sections with card layout and dropdowns
+   Graph/BubbleChart.js:- used to display investments sectors, common to company/person profile  
+   ContactInfoForm.js:- reusable form for social links section, common to Company/Person profile edit  
+   CustomizeDropDown.js:- reusable drop down to use company type and team size for company profile edit   
+   EditComp.js:- company profile edit contains multiple forms sections with card layout, tags and dropdowns  
+   EditCompGeneral.js:- general information section on company profile edit 
+   EditPersonRolesDropDown.js:- currently using it manually to select type of a company. need to change it later and remove this component when type comes from data. used on Person profile edit
+   FundingInvestmentForm.js:- reusable form used for Angel investment, Funding and Portfolio. common to Company/Person profile edit  
+   SuggestionsDropdownClaim.js:- reusable dropdown comes with backend-API data, common to all sections of Company/Person profile edit   
+   SuggestionTag.js:- reusable component used for displaying text in tags common to all sections of Company/Person profile edit   
+   TeamProfile.js:- reusable form for Team section on Company profile edit, common to all team sections   
+   utils.js:- contains reusable blocks of code such as error notification, convert date format, experiences/team member card layout and static JSON data, common to all
 ```
    
 ### Template
 
-   all the view pages for initial rendering are under view folder
+   ```all the view pages for initial rendering are under view folder
+   
    ejs template contains html or html and JSX 
+   
    source: /views/
-   index.ejs:  
-   companies.ejs:    
+   
+   index.ejs: landing/home page
+   companies.ejs: companies search page and renders component company 
    company-profile-edit.ejs:   
    footerNew.ejs:    
    investors.ejs:    
    navbar-new.ejs:   
    person-profile-edit.ejs:   
-   signupform.ejs:   
+   signupform.ejs:  
+```
    
 ### Styling
 
@@ -50,11 +60,13 @@
    
    
 ## The project removes unnecessary files
+
    the project nclient folder contains the following 
    
 ### Components
 
    source: /public/javascripts/app/components/
+   
    ClaimButton.js     
    CompanyType.js     
    EditCompFounder.js    
@@ -62,10 +74,14 @@
    EditPortfolio.js      
    EditProfileCalendar.js   
    Investors.js    
-  
-   source: /public/javascripts/app/components/Person/     
-   CompanyRole.js  
-   source: /public/javascripts/app/components/Utility/    
+   
+   source: /public/javascripts/app/components/Company/  
+   Slider.js 
+   
+   source: /public/javascripts/app/components/Person/  
+   CompanyRole.js 
+   
+   source: /public/javascripts/app/components/Utility/ 
    ClaimProfileButton.js    
   
 ### Templates
