@@ -26,7 +26,8 @@
          
    Investor:- investor search page contains multiple components with filters,investors list and options to select more columns 
          /Investor/Investors.js:- renders investors table and filters
-         /Investor/SelectTags.js:- 
+         /Investor/SelectTags.js:- reusable component for displaying filter text in tags, common to all filters on investors search page
+         /Investor/SuggestionsDropdown.js:- search box drop down for filters on investors search page
          
    Person:- person profile edit contains multiple forms sections with card layout and dropdowns
    Graph/BubbleChart.js:- used to display investments sectors, common to company/person profile  
@@ -86,6 +87,8 @@
    
    source: /public/javascripts/app/components/Investor/  
    Slider.js:- spare file, not using any slider on investors search page
+   YearFounded:- there is no Range filter to use year of found on investors search page 
+   YearFunded:- not using any funding range on investors search page
    
    source: /public/javascripts/app/components/Person/  
    CompanyRole.js 
@@ -106,10 +109,10 @@
   
 ### Styling
 
-   source: /public/stylesheets/sass/    
+   ```source: /public/stylesheets/sass/    
 
    _footer.scss    
    _nav.scss    
    _right-tag.scss    
    _slider.scss
-  
+  ```
