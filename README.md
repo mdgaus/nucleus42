@@ -4,6 +4,7 @@
    the project nclient folder contains the following 
 
 ### Modules
+
    1. Companies Search Page   
    2. Investors Search Page   
    3. Company Profile Form Edit  
@@ -11,6 +12,7 @@
    5. BubbleChart on Profile Page   
    
 ### Components
+
    all the reactjs components are under /public/javascripts/app/components/   
    Company: company search page contains multiple components with filters, companies list and options to select more columns  
    Investor: investor search page contains multiple components with filters, investors list and options to select more columns 
@@ -28,6 +30,7 @@
    utils.js: contains reusable blocks of code such as error notification, convert date format, experiences/team member card layout and static JSON data, common to all    
    
 ### Template
+
    all the view pages for initial rendering are under view folder
    ejs template contains html or html and JSX 
    source: /views/
@@ -41,6 +44,7 @@
    signupform.ejs:   
    
 ### Styling
+
    all the styling files are under /public/stylesheets/sass/
    
    
@@ -48,34 +52,37 @@
    the project nclient folder contains the following 
    
 ### Components
-  source: /public/javascripts/app/components/
-  ClaimButton.js     
-  CompanyType.js     
-  EditCompFounder.js    
-  EditCompFunding.js    
-  EditPortfolio.js      
-  EditProfileCalendar.js   
-  Investors.js    
+
+   source: /public/javascripts/app/components/
+   ClaimButton.js     
+   CompanyType.js     
+   EditCompFounder.js    
+   EditCompFunding.js    
+   EditPortfolio.js      
+   EditProfileCalendar.js   
+   Investors.js    
   
-  source: /public/javascripts/app/components/Person/     
-  CompanyRole.js  
-  source: /public/javascripts/app/components/Utility/    
-  ClaimProfileButton.js    
+   source: /public/javascripts/app/components/Person/     
+   CompanyRole.js  
+   source: /public/javascripts/app/components/Utility/    
+   ClaimProfileButton.js    
   
 ### Templates
-  source: /views/ 
-  
-  claimprofile.ejs   
-  company-profile-new.ejs  
-  footer.ejs   
-  navbar.ejs   
-  portfolio_view_all_section.ejs    
-  tags_section.ejs   
+
+   source: /views/ 
+
+   claimprofile.ejs   
+   company-profile-new.ejs  
+   footer.ejs   
+   navbar.ejs   
+   portfolio_view_all_section.ejs    
+   tags_section.ejs   
   
 ### Styling
-  source: /public/stylesheets/sass/    
-  
-  _footer.scss    
-  _nav.scss    
-  _right-tag.scss    
+
+   source: /public/stylesheets/sass/    
+
+   _footer.scss    
+   _nav.scss    
+   _right-tag.scss    
   
