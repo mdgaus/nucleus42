@@ -27,7 +27,8 @@
    SuggestionsDropdownClaim.js: reusable dropdown comes with backend-API data, common to all sections of Company/Person profile edit   
    SuggestionTag.js: reusable component used for displaying text in tags common to all sections of Company/Person profile edit   
    TeamProfile.js: reusable form for Team section on Company profile edit, common to all team sections   
-   utils.js: contains reusable blocks of code such as error notification, convert date format, experiences/team member card layout and static JSON data, common to all    ```
+   utils.js: contains reusable blocks of code such as error notification, convert date format, experiences/team member card layout and static JSON data, common to all
+```
    
 ### Template
 
