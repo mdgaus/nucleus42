@@ -15,7 +15,8 @@
 
    all the reactjs components are under /public/javascripts/app/components/
    
-   ```Company:- company search page contains multiple components with filters, companies list and options to select more columns 
+   ```
+   Company:- company search page contains multiple components with filters, companies list and options to select more columns 
          /Company/Companies.js:- renders companies table and filters
          /Company/FundingRange.js:- component used for funding range under Range Filter on companies search page
          /Company/MainSearchBox.js:- reusable search box results drop down for searching startups, investors etc.., common to landing page, navigation bar
