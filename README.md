@@ -16,12 +16,18 @@
    ```all the reactjs components are under /public/javascripts/app/components/
    
    Company:- company search page contains multiple components with filters, companies list and options to select more columns 
-         /Company/Companies.js:- companies table 
-         /Company/FundingRange.js:- component used for funding range on companies search page
+         /Company/Companies.js:- renders companies table and filters
+         /Company/FundingRange.js:- component used for funding range under Range Filter on companies search page
          /Company/MainSearchBox.js:- reusable search box results drop down for searching startups, investors etc.., common to landing page, navigation bar
          /Company/SelectTags.js:- reusable component for displaying filter text in tags, common to all filters on companies search page
+         /Company/SuggestionsDropdown.js:- search box drop down for filters on companies search page
+         /Company/YearFounded:- component used for year of found under Range Filter on companies search page
+         /Company/YearFunded:- component used for year of funding under Range Filter on companies page
          
-   Investor:- investor search page contains multiple components with filters, investors list and options to select more columns 
+   Investor:- investor search page contains multiple components with filters,investors list and options to select more columns 
+         /Investor/Investors.js:- renders investors table and filters
+         /Investor/SelectTags.js:- 
+         
    Person:- person profile edit contains multiple forms sections with card layout and dropdowns
    Graph/BubbleChart.js:- used to display investments sectors, common to company/person profile  
    ContactInfoForm.js:- reusable form for social links section, common to Company/Person profile edit  
@@ -76,7 +82,10 @@
    Investors.js    
    
    source: /public/javascripts/app/components/Company/  
-   Slider.js 
+   Slider.js:- spare file, not using any slider on companies search page
+   
+   source: /public/javascripts/app/components/Investor/  
+   Slider.js:- spare file, not using any slider on investors search page
    
    source: /public/javascripts/app/components/Person/  
    CompanyRole.js 
@@ -102,4 +111,5 @@
    _footer.scss    
    _nav.scss    
    _right-tag.scss    
+   _slider.scss
   
