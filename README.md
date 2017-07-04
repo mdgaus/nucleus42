@@ -90,27 +90,15 @@
   ``` 
    _app.scss:- this file imports all the scss file
    
+   _react-widgets.scss:- this file imports all the styling used in DateTimePicker
+  ```
+  
+  ``` 
    _common.scss:- styling common to all
    
    _claim-profile.scss:- stying for company/person edit claim profile
    
    _companies.scss:- styling for companies search page
-   
-   _core.scss:- used by a library react-widget for calendar/date picker
-   
-   _datepicker.scss:- used by a library react-widget for calendar/date picker
-   
-   _icons.scss:- used by a library react-widget for calendar/date picker
-   
-   _multiselect.scss:- used by a library react-widget for calendar/date picker
-   
-   _normalize.scss:- used by a library react-widget for calendar/date picker
-   
-   _popup.scss:- used by a library react-widget for calendar/date picker
-   
-   _react-datepicker.scss:- used by a library react-widget for calendar/date picker
-   
-   _react-widgets.scss:- used by a library react-widget for calendar/date picker
    
    _footer-new.scss:- styling for footer
    
@@ -129,6 +117,22 @@
    _topSignupform:- styling for email notification subscription placed on above to the navbar
    
    _year-founded:- styling for year of found used under Filter range filter
+ ```
+ 
+ ```  
+    _core.scss:- used by a library react-widget for calendar/date picker
+   
+   _datepicker.scss:- used by a library react-widget for calendar/date picker
+   
+   _icons.scss:- used by a library react-widget for calendar/date picker
+   
+   _multiselect.scss:- used by a library react-widget for calendar/date picker
+   
+   _normalize.scss:- used by a library react-widget for calendar/date picker
+   
+   _popup.scss:- used by a library react-widget for calendar/date picker
+   
+   _react-datepicker.scss:- used by a library react-widget for calendar/date picker
     
    ```
    
