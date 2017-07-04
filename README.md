@@ -53,6 +53,9 @@
    TeamProfile.js:- reusable form for Team section on Company profile edit, common to all team sections   
    
    utils.js:- contains reusable blocks of code such as error notification, convert date format, experiences/team member card layout and static JSON data, common to all
+   
+   using a library react-widget for DateTimePicker which is used on claim profile form of company and person
+   
 ```
    
 ### Template
