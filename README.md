@@ -65,15 +65,16 @@
    source: /views/
    
    index.ejs: landing/home page 
+   
    companies.ejs:- companies search page and renders component company 
    
    company-profile-edit.ejs:- renders company profile edit component
    
-   footerNew.ejs:- footer section
+   footerNew.ejs:- footer section, common to all pages
    
    investors.ejs:- investors search page and renders component investor
    
-   navbar-new.ejs:- navigation bar with menu items and renders search box drop down component MainSearchBox
+   navbar-new.ejs:- navigation bar with menu items and renders search box drop down component MainSearchBox, common to all pages
    
    person-profile-edit.ejs:- renders person profile edit component
    
@@ -84,12 +85,48 @@
 
    all the styling files are under /public/stylesheets/sass/
   ``` 
-   _common.scss:- styling common to all
-   _claim-profile.scss:- stying for company/person edit claim profile
-   _companies.scss:- styling for companies search page
-   _core.scss:- file used by library react-widget for calendar
-   _datepicker.scss:- used by library react-widget for calendar
+   _app.scss:- this file imports all the scss file
    
+   _common.scss:- styling common to all
+   
+   _claim-profile.scss:- stying for company/person edit claim profile
+   
+   _companies.scss:- styling for companies search page
+   
+   _core.scss:- used by a library react-widget for calendar/date picker
+   
+   _datepicker.scss:- used by a library react-widget for calendar/date picker
+   
+   _icons.scss:- used by a library react-widget for calendar/date picker
+   
+   _multiselect.scss:- used by a library react-widget for calendar/date picker
+   
+   _normalize.scss:- used by a library react-widget for calendar/date picker
+   
+   _popup.scss:- used by a library react-widget for calendar/date picker
+   
+   _react-datepicker.scss:- used by a library react-widget for calendar/date picker
+   
+   _react-widgets.scss:- used by a library react-widget for calendar/date picker
+   
+   _footer-new.scss:- styling for footer
+   
+   _funding-range.scss:- styling for funding range under Range filter
+   
+   _homepage.scss:- styling for landing page and MainSearchBox
+   
+   _nav2.scss:- styling for navbar
+   
+   _profile.scss:- styling for profile edit form, common to Company nad Person
+   
+   _searchbox.scss:- styling for mainsearchbox drop down
+   
+   _topNavigation-searchbox.scss:- styling for navbar placed on top
+   
+   _topSignupform:- styling for email notification subscription placed on above to the navbar
+   
+   _year-founded:- styling for year of found used under Filter range filter
+    
    ```
    
 ## The project removes unnecessary files
@@ -146,4 +183,5 @@
    _nav.scss    
    _right-tag.scss    
    _slider.scss
+   _selectlist.scss:- empty file
   ```
