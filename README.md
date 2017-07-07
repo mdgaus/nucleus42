@@ -31,6 +31,7 @@
          /Investor/SuggestionsDropdown.js:- search box drop down for filters on investors search page
          
    Person:- person profile edit contains multiple forms sections with card layout and dropdowns
+         /Person/EditPersonProfile.js:- renders person profile inludes all sections
    
    Graph/BubbleChart.js:- used to display investments sectors, common to company/person profile  
    
@@ -54,9 +55,45 @@
    
    utils.js:- contains reusable blocks of code such as error notification, convert date format, experiences/team member card layout and static JSON data, common to all
    
-   using a library react-widget for DateTimePicker which is used on claim profile form of company and person
-   
 ```
+## External Library Used 
+
+using a library react-widget for DateTimePicker which is used on claim profile form of company and person
+
+```
+DateTimePicker is used on many forms
+
+   source:- /public/javascripts/app/components/
+   EditCompGeneral.js:- placed on general information under About Us section for company profile edit
+   
+   source:- /public/javascripts/app/components/
+   FundingInvestmentForm.js:- placed on Funding Details under Funding section for company profile edit
+   
+   source:- /public/javascripts/app/components/
+   TeamProfile.js:- placed on team member's form under Team section for company profile edit
+   
+   source:- /public/javascripts/app/components/Person/
+   EditPersonProfile.js:- placed on Professional Exp. section for person profile edit
+``` 
+
+```  
+Styling for DateTimePicker
+   
+    _core.scss:- used by a library react-widget for calendar/date picker
+   
+   _datepicker.scss:- used by a library react-widget for calendar/date picker
+   
+   _icons.scss:- used by a library react-widget for calendar/date picker
+   
+   _multiselect.scss:- used by a library react-widget for calendar/date picker
+   
+   _normalize.scss:- used by a library react-widget for calendar/date picker
+   
+   _popup.scss:- used by a library react-widget for calendar/date picker
+   
+   _react-datepicker.scss:- used by a library react-widget for calendar/date picker
+    
+   ```
    
 ### Template
 
@@ -118,23 +155,6 @@
    
    _year-founded:- styling for year of found used under Filter range filter
  ```
- 
- ```  
-    _core.scss:- used by a library react-widget for calendar/date picker
-   
-   _datepicker.scss:- used by a library react-widget for calendar/date picker
-   
-   _icons.scss:- used by a library react-widget for calendar/date picker
-   
-   _multiselect.scss:- used by a library react-widget for calendar/date picker
-   
-   _normalize.scss:- used by a library react-widget for calendar/date picker
-   
-   _popup.scss:- used by a library react-widget for calendar/date picker
-   
-   _react-datepicker.scss:- used by a library react-widget for calendar/date picker
-    
-   ```
    
 ## The project removes unnecessary files
 
