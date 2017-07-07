@@ -58,7 +58,7 @@
 ```
 ## External Library Used 
 
-using a library react-widget for DateTimePicker which is used on claim profile form of company and person
+using a library react-widget for DateTimePicker which is used on claim profile form for company and person
 
 ```
 DateTimePicker is used on many forms
